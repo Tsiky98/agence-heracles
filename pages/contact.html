@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="menu">
+        <h2 class="titre-menu">Menu</h2>
+            <ul class="list-menu">
+                <li class="item-nav"><a href="../">Acceuil</a></li>
+                <li class="item-nav"><a href="./information.html">Informations</a></li>
+                <li class="item-nav"><a href="./portfolio.html">Tous nos biens</a></li>
+                <li class="item-nav"><a href="#">Contact</a></li>
+            </ul>
+    </nav>
+
+    <h1 class="title-contact">Entrons en contact !</h1>
+    <p class="text-contact">Contactez-nous par mail,par telephone ou par la poste.</p>
+
+    <!-- Section choix contact -->
+    <div class="container-contact">
+        <div class="item-contact">
+            <img src="../ressources/placeholder.svg" alt="icone placeholder">
+            <p class="txt-item-contact">9 Rues Tonneliers 8888 Paris</p>
+        </div>
+        <div class="item-contact">
+            <img src="../ressources/phone-call.svg" alt="icon telephone">
+            <p class="txt-item-contact">+261 34 33 031 75</p>
+        </div>
+        <div class="item-contact">
+            <img src="../ressources/email.svg" alt="icone mail">
+            <p class="txt-item-contact">
+                <a href="mailto:Tsikinjanahary@gmail.com" >Tsikinjanahary@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Formulaire -->
+    <form>
+        <h2 class="titre-form">Parlez-nous de vos envies</h2>
+        <div class="form-group">
+            <label for="prenom">Votre prenom</label>
+            <input type="text" id="prenom" placeholder="votre prenom">
+        </div>
+        <div class="form-group">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" placeholder="votre nom">
+        </div>
+        <div class="form-group">
+            <label for="tel">Votre telephone</label>
+            <input type="text" id="tel" placeholder="votre numero de telephone">
+        </div>
+        <div class="form-group">
+            <p class="type-bien">
+                <span>Type de bien: </span>
+                <label for="location">Louer</label>
+                <input type="checkbox" id="location">
+                <label for="acheter">Acheter</label>
+                <input type="checkbox" id="acheter">
+            </p>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Votre message"></textarea>
+        </div>
+        
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <footer>
+        <p class="txt-footer">
+            Tous droits reserves &copy;<br> Made by Tsiky Randriam  2022 - 2023.
+        </p>
+    </footer>
+</body>
+</html>

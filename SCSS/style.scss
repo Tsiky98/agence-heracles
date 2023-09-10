@@ -1,0 +1,24 @@
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.2s ease-in;
+}
+
+body {
+    font-family: Open Sans,sans-serif;
+    height: 100vh;
+}
+
+
+
+
+@import "./placeholder";
+@import "./home";
+@import "./information";
+@import "./portfolio";
+@import "./contact";
